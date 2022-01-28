@@ -1,0 +1,1 @@
+# iaqdirect-ebay-template
