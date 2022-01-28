@@ -1,0 +1,513 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner {
+    margin: 30px 0;
+    border: 1px solid #eee;
+}
+
+.banner-area img {
+    height: 700px;
+    padding: 30px;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+.why-us {
+    width: 20%;
+    float: left;
+}
+
+.why-us h3 {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.why-us i.fa {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.support-box {
+    overflow: hidden;
+    background-color: #155AA5;
+}
+
+.support-box ul li {
+    float: left;
+    width: 33.33%;
+    list-style: none;
+    position: relative;
+    border-right: 1px solid #D1D1D1;
+    padding: 10px 0;
+    border-left: 0;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-box {
+    overflow: hidden;
+    width: 80%;
+    float: left;
+}
+
+.service-left {
+    width: 24%;
+    float: left;
+    text-align: right;
+}
+
+.service-left i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.service-right {
+    width: 76%;
+    font-weight: 600;
+    float: right;
+    padding: 4px 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.header-wraper {
+    margin: 30px 0 0;
+}
+
+.satisfacation {
+    text-align: right;
+}
+
+.satisfacation img {
+    margin-right: 10px;
+}
+
+.footer-widget.footer-logo {
+    margin: 15px 0;
+}
+
+.footer-logo img {
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.header-area {
+    margin: 30px 0;
+}
+
+.logo {
+    padding: 13px 0;
+}
+
+/*  ================================
+        header area end
+    ================================ */
+
+.Product-title-area {
+    background-color: #155AA5;
+}
+
+.pro-title {
+    background-color: #155AA5;
+    border-radius: 5px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.pro-title h3 {
+    color: #fff;
+    font-size: 28px;
+    display: inline-block;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.dis-heading {
+    background-color: #000;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+
+/*  ================================
+        product area start
+    ================================ */
+
+.box-area {
+    margin: 0 0 30px;
+}
+
+.box-area h1 {
+    background-color: #155AA5;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box-content {
+    padding: 30px 0 0;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.pro-img {
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.product-img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pro-single-img {
+    height: 542px;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+.pro-single-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.footer-top {
+    padding: 30px 0;
+    background-color: #155AA5;
+    margin-top: 30px;
+}
+
+.footer-widget p {
+    margin: 0 0 20px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-widget p a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+.footer-widget h3 {
+    padding: 60px 0 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    font-weight: bold;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.footer-widget.text-right.ta {
+    background-color: #111111;
+    padding: 0 20px;
+    border-radius: 100px;
+}
+
+.copy-right {
+    padding: 30px 0;
+}
+
+.copy-right p {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.footer-widget.text-right.ta img {
+    padding: 20px 0;
+}
+
+.f-ex {
+    padding-bottom: 0;
+}
+
+.pay img {
+    margin-top: 15px;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
+
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .satisfacation img {
+        margin-right: 10px;
+    }
+
+    .service-right {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .why-us h3 {
+        font-size: 11px;
+    }
+
+    .satisfacation img {
+        width: 80px;
+    }
+
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .why-us h3 {
+        font-size: 10px;
+        padding: 13px 10px;
+    }
+
+    .why-us i.fa {
+        height: 20px;
+        width: 20px;
+        line-height: 18px;
+        margin-left: 5px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .service-left {
+        width: 17%;
+    }
+
+    .service-left i {
+        font-size: 20px;
+    }
+
+    .service-right {
+        padding: 3px 10px;
+        font-size: 10px;
+        font-weight: 600;
+        width: 83%;
+    }
+
+    .service-left img {
+        width: 20px;
+    }
+
+    .support-box ul li {
+        padding: 11px 0;
+    }
+
+    .box-area h1 {
+        font-size: 20px;
+    }
+
+    .footer-widget h3 {
+        padding: 25px 0 0;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    .header-area {
+        margin: 0;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .dis-heading {
+        margin: 30px 0 0;
+    }
+
+    .box-area h1 {
+        font-size: 16px;
+        padding: 10px;
+        line-height: 1.6;
+    }
+
+    .why-us {
+        width: 100%;
+    }
+
+    .why-us h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .why-us h3 i {
+        transform: rotate(90deg);
+    }
+
+    .wel-come {
+        padding: 10px 0;
+    }
+
+    .wel-come {
+        text-align: center;
+    }
+
+    .support {
+        text-align: center !important;
+    }
+
+    .support h2 {
+        font-size: 18px;
+    }
+
+    .footer-logo img {
+        width: 250px;
+    }
+
+    .pro-title {
+        padding: 0;
+    }
+
+    .pro-title h3 {
+        font-size: 20px;
+    }
+
+    .banner-area img {
+        height: auto;
+    }
+
+    .support-box ul li {
+        width: 100%;
+        font-size: 14px;
+        border-left: 1px solid #D1D1D1;
+    }
+
+    .satisfacation {
+        text-align: center;
+    }
+
+    .header-wraper {
+        margin: 20px 0 0;
+    }
+
+    .satisfacation img {
+        width: 80px;
+        margin: 0 10px 10px 0px;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    .footer-top {
+        margin-top: 0;
+    }
+
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+
+    .footer-widget.footer-logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .ta {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .copy-right p {
+        font-size: 14px;
+    }
+
+    .pro-single-img {
+        height: auto;
+    }
+
+    .pro-single-img img {
+        position: inherit;
+    }
+
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
